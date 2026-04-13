@@ -4,7 +4,7 @@ let grade;
 let result;
 let remarks;
 
-if(marks>=85 && marks<100){
+if(marks>=90 && marks<=100){
     marks+=bonusMarks;
     grade="A";
     console.log("High Marks with bonus: " + marks);
@@ -18,7 +18,7 @@ if(marks>=85 && marks<100){
             break;
     }
 }
-else if(marks>=70 && marks<89){
+else if(marks>=70 && marks<=89){
     grade="B";
     console.log("Marks :" + marks);
     console.log("Grade: " + grade);
