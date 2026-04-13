@@ -26,7 +26,6 @@ else if(marks>=70 && marks<=89){
     console.log("Result: " + result);
     console.log("Remarks: Good");
 
-
 }
 else if(marks>=50 && marks<=69){
     console.log("Marks: " + marks);
